@@ -1,0 +1,14 @@
+body{
+    front-family: Arial;
+    background-color: #34495e;
+}
+
+.content{
+    background-color: #191919;
+    width:200px;
+    padding:100px;
+    position: absolute;
+    top: 10%;
+    left:10%;
+    color: white;
+}
