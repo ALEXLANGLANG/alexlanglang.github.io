@@ -3,6 +3,8 @@
     Plain-Academic by Vasilios Mavroudis
     Released under the Simplified BSD License/FreeBSD (2-clause) License.
     https://github.com/mavroudisv/plain-academic
+    https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css
+
 -->
 
 <html lang="en">
@@ -11,9 +13,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!--  <link rel="stylesheet" type="text/css" href="main.css"/>-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="main.css" type='text/css'>
+<!--  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>-->
 </head>
 
 
@@ -30,17 +35,18 @@
 						<span class="icon-bar"></span>
 					</button>
 		</div>
-
+        <div class="col-md-offset-1">
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#awards">Awards & Honors</a></li>
-                  <li><a href="#teaching experience">Teaching Experience</a></li>
-				  <li><a href="https://drive.google.com/file/d/10mhKND-ur4PuohlboMhHWhutb_19yDnE/view?usp=sharing">CV</a></li>
-		  </ul>
-		</div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="#projects">Projects</a></li>
+                      <li><a href="#awards">Awards & Honors</a></li>
+                      <li><a href="#teaching experience">Teaching Experience</a></li>
+                      <li><a href="https://drive.google.com/file/d/10mhKND-ur4PuohlboMhHWhutb_19yDnE/view?usp=sharing">CV</a></li>
+              </ul>
+		    </div>
+        </div>
 	  </div>
 	</nav>
   
@@ -59,7 +65,7 @@
                 <div class="col-md-7">
                     <b> </b><br>
                     <b> </b><br>
-                    <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Xian Jesse Sun</b></div><br>
+                    <div><b style="font-family: 'Oswald', sans-serif; font-size: 32px;">Xian Jesse Sun</b></div><br>
                     <b> Research Assistant, Duke Computer Vision Lab</b><br>
                     <b> Instructor, Inspirit AI</b><br>
                     <b> Graduate GPA: 3.97/4.0, Duke University </b><br>
@@ -72,30 +78,31 @@
             <!-- Bio -->
         <div class="row">
             <div class="col-md-offset-1">
-                <h2 id="Bio">Bio</h2>
-                <p> I am currently working on class imbalance issue in image segmentation at Duke, advised by
-                    <a href="https://users.cs.duke.edu/~tomasi/">Carlo Tomasi</a>.
-                    Besides, I have been working as an instructor in Inspirit AI to help High and Middle school students to
-                    get better understanding of AI. Before joining Inspirit AI, I received a MS in Computer Engineering from
-                    Duke. During my graduate, I interned at
-                    <a href="https://almost-matching-exactly.github.io/">AME Lab</a>
-                    , advised by
-                    <a href="https://users.cs.duke.edu/~cynthia/">Cynthia Rudin </a>
-                    and worked on DL & ReRAM project, advised by
-                    <a href="http://people.ee.duke.edu/~krish/">Krishnendu Chakrabarty </a> .
-                </p>
+                <h2 id="Bio" >Bio</h2>
+                <div class="col-md-9">
+                    <p> I am currently working on class imbalance issue in image segmentation at Duke, advised by
+                        <a href="https://users.cs.duke.edu/~tomasi/"><u>Carlo Tomasi</u></a>.
+                        Besides, I have been working as an instructor in Inspirit AI to help High and Middle school students to
+                        get better understanding of AI. Before joining Inspirit AI, I received a MS in Computer Engineering from
+                        Duke. During my graduate, I interned at
+                        <a href="https://almost-matching-exactly.github.io/"><u>AME Lab</u></a>
+                        , advised by
+                        <a href="https://users.cs.duke.edu/~cynthia/"><u>Cynthia Rudin</u></a>
+                         and worked on DL & ReRAM project, advised by
+                        <a href="http://people.ee.duke.edu/~krish/"><u>Krishnendu Chakrabarty</u></a> .
+                    </p>
 
-                <p> I am very interested in making AI algorithms faster, more generalized and more interpretable.
-                    I recently developed  a copy/paste insect damages algorithm and  a leaves image editor to address
-                    the class imbalance issue on semantic image segmentation. In the past, I developed FLAME_DB and AHB,
-                    the first one is to do matching on large scale categorical dataset stored in database and the latter
-                    is on both categorical and continuous data.
-                </p>
+                    <p> I am very interested in making AI algorithms faster, more generalized and more interpretable.
+                        I recently developed  a copy/paste insect damages algorithm and  a leaves image editor to address
+                        the class imbalance issue on semantic image segmentation. In the past, I developed FLAME_DB and AHB,
+                        the first one is to do matching on large scale categorical dataset stored in database and the latter
+                        is on both categorical and continuous data.
+                    </p>
 
-                <p> See my
-                    <a href="https://drive.google.com/file/d/10mhKND-ur4PuohlboMhHWhutb_19yDnE/view?usp=sharing">CV </a> .
-                    for more. </p>
-
+                    <p style="color:black;font-size:17px;"> See my
+                        <a href="https://drive.google.com/file/d/10mhKND-ur4PuohlboMhHWhutb_19yDnE/view?usp=sharing"><u>CV</u></a>
+                         for more. </p>
+                </div>
             </div>
         </div>
 
@@ -105,12 +112,12 @@
             <div class="col-md-offset-1">
                 <h2 id="projects">Projects</h2>
                 <ul>
-                    <li><a href="https://almost-matching-exactly.github.io/">Class imbalance on Semantic Image Segmentation</a></li>
-                    <li><a href="https://github.com/ALEXLANGLANG/ReRAM-Deep-Leanring">ReRAM and Sparse Neural Networks</a></li>
-                    <li><a href="https://github.com/ALEXLANGLANG/FLAME_db">Fast Large-Scale Almost Matching Exactly on Database (FLAME_DB)</a></li>
-                    <li><a href="https://github.com/almost-matching-exactly/AHB-R-package">Adaptive Hyper-Box Matching (AHB)</a></li>
-                    <li><a href="https://github.com/ALEXLANGLANG/Risk-game">RISK Game</a></li>
-                    <li><a href="https://github.com/ALEXLANGLANG/Wireless-Rating-Device">Wireless Rating Device</a></li>
+                    <li><a href="https://almost-matching-exactly.github.io/"><u>Class Imbalance on Semantic Image Segmentation</u></a></li>
+                    <li><a href="https://github.com/ALEXLANGLANG/ReRAM-Deep-Leanring"><u>ReRAM and Sparse Neural Networks</u></a></li>
+                    <li><a href="https://github.com/ALEXLANGLANG/FLAME_db"><u>Fast Large-Scale Almost Matching Exactly on Database (FLAME_DB)</u></a></li>
+                    <li><a href="https://github.com/almost-matching-exactly/AHB-R-package"><u>Adaptive Hyper-Box Matching (AHB)</u></a></li>
+                    <li><a href="https://github.com/ALEXLANGLANG/Risk-game"><u>RISK Game</u></a></li>
+                    <li><a href="https://github.com/ALEXLANGLANG/Wireless-Rating-Device"><u>Wireless Rating Device</u></a></li>
                 </ul>
             </div>
 
@@ -134,7 +141,7 @@
         <div class="row">
                 <div class="col-md-offset-1">
                     <h2 id="teaching experience">Teaching Experience</h2>
-                    <ul>
+                    <ul >
                         <li>Instructor (Inspirit AI), AI Scholars and Deep Learning System Design (middle and high school), 2021</li>
                         <li>Teaching Assistant, CS527: Computer Vision (graduate), 2021</li>
                         <li>Teaching Assistant, ECE650K: System Programming & Engineering (graduate), 2021</li>

@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.content-wrapper{
+    padding: 0px 0px;
+}
+
+p{
+    font-size:18px
+}
+h1{
+    font-size:20px;
+}
+
+b{
+    font-size:18px;
+}
+u{
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+a,
+a:hover {
+  color: black;
+}
+
+
+
+ul li{
+    list-style-type: square;
+    margin-bottom: 19px;
+    margin-left: 0px;
+    color:black;
+    font-size:19px;
+}
