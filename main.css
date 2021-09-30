@@ -11,7 +11,8 @@ body {
 }
 
 p{
-    font-size:18px
+    font-size:18px;
+    color: #383838
 }
 h1{
     font-size:20px;
@@ -19,16 +20,18 @@ h1{
 
 b{
     font-size:18px;
+    color: #202020
 }
+
 u{
-    text-decoration-color: red;
-    text-decoration-thickness: 2px;
+    text-decoration-color: #D70000;
+    text-decoration-thickness: 1px;
     text-underline-position: under;
 }
 
 a,
 a:hover {
-  color: black;
+  color: #383838
 }
 
 
@@ -37,6 +40,7 @@ ul li{
     list-style-type: square;
     margin-bottom: 19px;
     margin-left: 0px;
-    color:black;
+    color: #383838;
     font-size:19px;
+
 }
