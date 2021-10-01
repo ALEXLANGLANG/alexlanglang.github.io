@@ -29,11 +29,17 @@ u{
     text-underline-position: under;
 }
 
+.contact-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 a,
 a:hover {
   color: #383838
 }
-
 
 
 ul li{
